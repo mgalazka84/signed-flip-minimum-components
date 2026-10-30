@@ -1,0 +1,9 @@
+{"polygon_vertices": 4, "normalized_four_colour_words": 2, "minimum_size": 2, "minimum_count": 2, "path_count": 2, "star_count": 0, "canonical_types": 1, "all_checks_passed": true}
+{"polygon_vertices": 5, "normalized_four_colour_words": 10, "minimum_size": 3, "minimum_count": 10, "path_count": 10, "star_count": 0, "canonical_types": 1, "all_checks_passed": true}
+{"polygon_vertices": 6, "normalized_four_colour_words": 40, "minimum_size": 4, "minimum_count": 16, "path_count": 12, "star_count": 4, "canonical_types": 2, "all_checks_passed": true}
+{"polygon_vertices": 7, "normalized_four_colour_words": 140, "minimum_size": 5, "minimum_count": 14, "path_count": 14, "star_count": 0, "canonical_types": 1, "all_checks_passed": true}
+{"polygon_vertices": 8, "normalized_four_colour_words": 462, "minimum_size": 6, "minimum_count": 16, "path_count": 16, "star_count": 0, "canonical_types": 1, "all_checks_passed": true}
+{"polygon_vertices": 9, "normalized_four_colour_words": 1470, "minimum_size": 7, "minimum_count": 18, "path_count": 18, "star_count": 0, "canonical_types": 1, "all_checks_passed": true}
+{"polygon_vertices": 10, "normalized_four_colour_words": 4580, "minimum_size": 8, "minimum_count": 20, "path_count": 20, "star_count": 0, "canonical_types": 1, "all_checks_passed": true}
+{"polygon_vertices": 11, "normalized_four_colour_words": 14080, "minimum_size": 9, "minimum_count": 22, "path_count": 22, "star_count": 0, "canonical_types": 1, "all_checks_passed": true}
+{"polygon_vertices": 12, "normalized_four_colour_words": 42922, "minimum_size": 10, "minimum_count": 24, "path_count": 24, "star_count": 0, "canonical_types": 1, "all_checks_passed": true}

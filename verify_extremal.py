@@ -4,7 +4,7 @@
 Python 3.10+, standard library only. No random choices or floating point counts.
 The direct signed-state enumeration is in verify_flips.py; this program instead
 enumerates normalized proper boundary words and uses interval dynamic programming.
-Finite checks of the 2N count are evidence, not a proof for arbitrary N.
+Finite checks of the 2N count support the theorem; they do not replace its proof.
 """
 import argparse
 import csv

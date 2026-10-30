@@ -1,0 +1,9 @@
+polygon_vertices,triangulations,endpoint_candidates_up_to_global_sign,signed_minimum_path_endpoints,minimum_path_components,all_checks_passed,elapsed_seconds
+5,5,10,20,10,True,0.001
+6,14,42,24,12,True,0.003
+7,42,168,28,14,True,0.011
+8,132,660,32,16,True,0.044
+9,429,2574,36,18,True,0.174
+10,1430,10010,40,20,True,0.453
+11,4862,38896,44,22,True,1.744
+12,16796,151164,48,24,True,6.812

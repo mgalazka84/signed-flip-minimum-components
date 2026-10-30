@@ -12,11 +12,12 @@ Run from the repository root:
 ```sh
 python3 verify_flips.py --max-n 10 --out results/signed_results.json
 python3 verify_extremal.py --max-n 12 --out-dir results
+python3 verify_fan_endpoints.py --max-n 12 --out results/fan_endpoint_results.json
 ```
 
-Both scripts stop with an assertion error on a failed check. Do not run them
+All verification scripts stop with an assertion error on a failed check. Do not run them
 with `python -O`, which disables assertions. Counts are deterministic; the
-`seconds` field in the signed-state results depends on the machine.
+timing fields in the signed-state and fan-endpoint results depend on the machine.
 
 ## Conventions
 
@@ -46,6 +47,21 @@ checks a three-flip local certificate, saved as `results/local_certificate.json`
 through N=10. `results/boundary_results.json` contains word counts, size
 histograms and all minimum words through N=12; its CSV is the compact summary.
 
+`verify_fan_endpoints.py` separately generates every triangulation and every
+signing with one legal move, up to global sign reversal. It follows actual
+legal moves without requiring removal of original diagonals. Across 203,524
+candidates for N=5,...,12 it checks that a minimum path endpoint is exactly
+a signed fan with one terminal equal-sign pair. It checks the permanence of
+inserted diagonals and the adjacent fan centres of accepted paths. Explicit
+fan sweeps are checked through N=40. The JSON records all outcomes and the
+forbidden-turn certificate; the CSV provides a summary. The coefficient
+`4*N` counts signed endpoints, and `2*N` counts minimum path components.
+
+The endpoint traversal and direct signed-state graph are independent checks.
+The boundary-word method uses the classical connectivity result to interpret
+its counts, as described below. The six-vertex claw components are included
+in the first two methods; the third method classifies minimum paths.
+
 ## Finite results
 
 | N | Minimum size | Minimum components | Paths | Claws |
@@ -60,8 +76,10 @@ histograms and all minimum words through N=12; its CSV is the compact summary.
 | 11 | 9 | 22 | 22 | 0 |
 | 12 | 10 | 24 | 24 | 0 |
 
-The observed count `2*N` for N>=7 is checked only in this finite range.
-These computations do not prove that count for arbitrary N.
+The general classification and exact `2*N` count are proved in the
+associated article, *Minimum signed flip components: classification and
+enumeration*. The computations here are finite checks of that result.
+They are not a substitute for the general proof.
 The classification up to boundary symmetries and colour permutations in the
 JSON is diagnostic and does not change the labelled counts.
 
@@ -70,8 +88,20 @@ second enumeration as components. The first enumeration does not use that
 result to construct its graph. The scripts contain precise assertions;
 they are not formal proof-assistant verification of a general theorem.
 
+## Reproduce the new figures
+
+Optional plotting requires matplotlib. Run:
+
+```sh
+python3 plot_fan_checks.py --out-dir figures
+```
+
+This writes PDF, EPS and PNG versions of a verified fan sweep and the local
+forbidden turn. The latter is drawn directly from the recorded certificate.
+Generated figures are excluded from this code-and-results repository.
+
 ## Integrity
 
 `SHA256SUMS.txt` records the distributed source and result files. It excludes
-itself. Re-running the signed enumeration changes timing fields and therefore
+itself. Re-running the timed enumerations changes timing fields and therefore
 its checksums, even when all mathematical counts agree.

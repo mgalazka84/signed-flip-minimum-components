@@ -224,7 +224,7 @@
         "12": 42
       },
       "all_checks_passed": true,
-      "seconds": 0.014
+      "seconds": 0.013
     },
     {
       "polygon_vertices": 8,
@@ -264,7 +264,7 @@
         "36": 4
       },
       "all_checks_passed": true,
-      "seconds": 0.086
+      "seconds": 0.08
     },
     {
       "polygon_vertices": 9,
@@ -316,7 +316,7 @@
         "79": 6
       },
       "all_checks_passed": true,
-      "seconds": 0.567
+      "seconds": 0.561
     },
     {
       "polygon_vertices": 10,
@@ -428,7 +428,7 @@
         "188": 10
       },
       "all_checks_passed": true,
-      "seconds": 4.436
+      "seconds": 5.338
     }
   ]
 }

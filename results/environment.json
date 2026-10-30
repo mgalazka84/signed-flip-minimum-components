@@ -3,5 +3,10 @@
   "verification_date": "2026-10-30",
   "direct_signed_max_N": 10,
   "boundary_word_max_N": 12,
-  "dependencies": "Python standard library only"
+  "dependencies": "Python standard library only",
+  "fan_endpoint_max_N": 12,
+  "explicit_fan_sweep_max_N": 40,
+  "endpoint_candidates_up_to_global_sign": 203524,
+  "optional_plotting_dependency": "matplotlib",
+  "matplotlib_version": "3.10.8"
 }
