@@ -263,7 +263,7 @@ def main():
         Path(args.out).write_text(json.dumps(report, indent=2) + '\n')
     fields = [k for k in rows[0] if k != 'component_size_histogram']
     with Path(args.out).with_suffix('.csv').open('w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=fields)
+        writer = csv.DictWriter(f, fieldnames=fields, lineterminator='\n')
         writer.writeheader()
         writer.writerows({k: row[k] for k in fields} for row in rows)
 

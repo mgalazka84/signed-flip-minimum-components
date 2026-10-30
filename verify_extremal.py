@@ -174,7 +174,7 @@ def main():
     (args.out_dir / 'boundary_results.json').write_text(
         json.dumps({'summary': rows, 'details': examples}, indent=2) + '\n')
     with (args.out_dir / 'boundary_results.csv').open('w', newline='') as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        w = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator='\n')
         w.writeheader()
         w.writerows(rows)
     (args.out_dir / 'local_certificate.json').write_text(
