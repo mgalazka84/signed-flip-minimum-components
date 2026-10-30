@@ -77,8 +77,8 @@ in the first two methods; the third method classifies minimum paths.
 | 12 | 10 | 24 | 24 | 0 |
 
 The general classification and exact `2*N` count are proved in the
-associated article, *Minimum signed flip components: classification and
-enumeration*. The computations here are finite checks of that result.
+associated article, *Minimum components of signed flip graphs: classification
+and enumeration*. The computations here are finite checks of that result.
 They are not a substitute for the general proof.
 The classification up to boundary symmetries and colour permutations in the
 JSON is diagnostic and does not change the labelled counts.
