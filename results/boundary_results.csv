@@ -1,0 +1,10 @@
+polygon_vertices,normalized_four_colour_words,minimum_size,minimum_count,path_count,star_count,canonical_types,all_checks_passed
+4,2,2,2,2,0,1,True
+5,10,3,10,10,0,1,True
+6,40,4,16,12,4,2,True
+7,140,5,14,14,0,1,True
+8,462,6,16,16,0,1,True
+9,1470,7,18,18,0,1,True
+10,4580,8,20,20,0,1,True
+11,14080,9,22,22,0,1,True
+12,42922,10,24,24,0,1,True

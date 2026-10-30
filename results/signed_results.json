@@ -1,0 +1,434 @@
+{
+  "local_quadrilateral_checks": 48,
+  "hexagon_star_example": {
+    "colour_word": [
+      0,
+      1,
+      0,
+      2,
+      0,
+      3
+    ],
+    "triangulations": [
+      [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          4,
+          5
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ]
+    ],
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "degrees": [
+      1,
+      3,
+      1,
+      1
+    ]
+  },
+  "rows": [
+    {
+      "polygon_vertices": 3,
+      "triangles": 1,
+      "triangulations": 1,
+      "signed_states": 2,
+      "undirected_edges": 0,
+      "components": 2,
+      "isolated_components": 2,
+      "four_colour_fibres": 0,
+      "minimum_nontrivial_size": null,
+      "minimum_nontrivial_count": 0,
+      "minimum_components_max_degree": 0,
+      "all_minimum_components_are_paths": null,
+      "component_size_histogram": {
+        "1": 2
+      },
+      "all_checks_passed": true,
+      "seconds": 0.0
+    },
+    {
+      "polygon_vertices": 4,
+      "triangles": 2,
+      "triangulations": 2,
+      "signed_states": 8,
+      "undirected_edges": 2,
+      "components": 6,
+      "isolated_components": 4,
+      "four_colour_fibres": 2,
+      "minimum_nontrivial_size": 2,
+      "minimum_nontrivial_count": 2,
+      "minimum_components_max_degree": 1,
+      "all_minimum_components_are_paths": true,
+      "component_size_histogram": {
+        "1": 4,
+        "2": 2
+      },
+      "all_checks_passed": true,
+      "seconds": 0.0
+    },
+    {
+      "polygon_vertices": 5,
+      "triangles": 3,
+      "triangulations": 5,
+      "signed_states": 40,
+      "undirected_edges": 20,
+      "components": 20,
+      "isolated_components": 10,
+      "four_colour_fibres": 10,
+      "minimum_nontrivial_size": 3,
+      "minimum_nontrivial_count": 10,
+      "minimum_components_max_degree": 2,
+      "all_minimum_components_are_paths": true,
+      "component_size_histogram": {
+        "1": 10,
+        "3": 10
+      },
+      "all_checks_passed": true,
+      "seconds": 0.0
+    },
+    {
+      "polygon_vertices": 6,
+      "triangles": 4,
+      "triangulations": 14,
+      "signed_states": 224,
+      "undirected_edges": 168,
+      "components": 68,
+      "isolated_components": 28,
+      "four_colour_fibres": 40,
+      "minimum_nontrivial_size": 4,
+      "minimum_nontrivial_count": 16,
+      "minimum_components_max_degree": 3,
+      "all_minimum_components_are_paths": false,
+      "component_size_histogram": {
+        "1": 28,
+        "4": 16,
+        "5": 12,
+        "6": 12
+      },
+      "all_checks_passed": true,
+      "seconds": 0.003
+    },
+    {
+      "polygon_vertices": 7,
+      "triangles": 5,
+      "triangulations": 42,
+      "signed_states": 1344,
+      "undirected_edges": 1344,
+      "components": 224,
+      "isolated_components": 84,
+      "four_colour_fibres": 140,
+      "minimum_nontrivial_size": 5,
+      "minimum_nontrivial_count": 14,
+      "minimum_components_max_degree": 2,
+      "all_minimum_components_are_paths": true,
+      "component_size_histogram": {
+        "1": 84,
+        "5": 14,
+        "6": 28,
+        "9": 42,
+        "10": 14,
+        "12": 42
+      },
+      "all_checks_passed": true,
+      "seconds": 0.014
+    },
+    {
+      "polygon_vertices": 8,
+      "triangles": 6,
+      "triangulations": 132,
+      "signed_states": 8448,
+      "undirected_edges": 10560,
+      "components": 726,
+      "isolated_components": 264,
+      "four_colour_fibres": 462,
+      "minimum_nontrivial_size": 6,
+      "minimum_nontrivial_count": 16,
+      "minimum_components_max_degree": 2,
+      "all_minimum_components_are_paths": true,
+      "component_size_histogram": {
+        "1": 264,
+        "6": 16,
+        "7": 16,
+        "8": 16,
+        "10": 16,
+        "12": 64,
+        "13": 8,
+        "14": 8,
+        "15": 16,
+        "16": 32,
+        "18": 32,
+        "19": 64,
+        "20": 40,
+        "21": 16,
+        "22": 32,
+        "23": 32,
+        "26": 16,
+        "28": 8,
+        "29": 16,
+        "32": 2,
+        "34": 8,
+        "36": 4
+      },
+      "all_checks_passed": true,
+      "seconds": 0.086
+    },
+    {
+      "polygon_vertices": 9,
+      "triangles": 7,
+      "triangulations": 429,
+      "signed_states": 54912,
+      "undirected_edges": 82368,
+      "components": 2328,
+      "isolated_components": 858,
+      "four_colour_fibres": 1470,
+      "minimum_nontrivial_size": 7,
+      "minimum_nontrivial_count": 18,
+      "minimum_components_max_degree": 2,
+      "all_minimum_components_are_paths": true,
+      "component_size_histogram": {
+        "1": 858,
+        "7": 18,
+        "9": 36,
+        "13": 36,
+        "15": 54,
+        "17": 36,
+        "18": 36,
+        "21": 18,
+        "23": 72,
+        "27": 126,
+        "28": 72,
+        "29": 6,
+        "31": 54,
+        "32": 36,
+        "33": 18,
+        "34": 72,
+        "35": 18,
+        "36": 108,
+        "37": 36,
+        "38": 72,
+        "41": 36,
+        "42": 36,
+        "44": 36,
+        "45": 108,
+        "46": 36,
+        "53": 54,
+        "55": 36,
+        "57": 18,
+        "59": 54,
+        "61": 36,
+        "66": 36,
+        "70": 36,
+        "71": 18,
+        "79": 6
+      },
+      "all_checks_passed": true,
+      "seconds": 0.567
+    },
+    {
+      "polygon_vertices": 10,
+      "triangles": 8,
+      "triangulations": 1430,
+      "signed_states": 366080,
+      "undirected_edges": 640640,
+      "components": 7440,
+      "isolated_components": 2860,
+      "four_colour_fibres": 4580,
+      "minimum_nontrivial_size": 8,
+      "minimum_nontrivial_count": 20,
+      "minimum_components_max_degree": 2,
+      "all_minimum_components_are_paths": true,
+      "component_size_histogram": {
+        "1": 2860,
+        "8": 20,
+        "10": 20,
+        "11": 20,
+        "16": 20,
+        "18": 80,
+        "21": 40,
+        "22": 20,
+        "23": 60,
+        "24": 20,
+        "28": 20,
+        "31": 40,
+        "33": 60,
+        "34": 20,
+        "35": 40,
+        "36": 80,
+        "37": 40,
+        "38": 40,
+        "41": 40,
+        "42": 80,
+        "43": 40,
+        "44": 40,
+        "45": 20,
+        "46": 40,
+        "48": 140,
+        "49": 40,
+        "50": 100,
+        "52": 120,
+        "53": 40,
+        "56": 120,
+        "58": 80,
+        "59": 60,
+        "60": 20,
+        "61": 100,
+        "62": 80,
+        "64": 40,
+        "66": 40,
+        "68": 60,
+        "69": 40,
+        "70": 90,
+        "71": 80,
+        "72": 40,
+        "73": 120,
+        "74": 120,
+        "75": 40,
+        "77": 40,
+        "78": 20,
+        "80": 20,
+        "81": 40,
+        "82": 60,
+        "84": 40,
+        "87": 40,
+        "88": 60,
+        "89": 80,
+        "90": 40,
+        "91": 40,
+        "92": 50,
+        "93": 80,
+        "94": 80,
+        "98": 80,
+        "100": 80,
+        "102": 20,
+        "107": 80,
+        "108": 20,
+        "109": 80,
+        "110": 20,
+        "111": 40,
+        "112": 40,
+        "114": 30,
+        "115": 40,
+        "116": 40,
+        "119": 80,
+        "120": 30,
+        "122": 50,
+        "123": 60,
+        "124": 20,
+        "125": 40,
+        "130": 40,
+        "132": 80,
+        "134": 40,
+        "137": 40,
+        "138": 40,
+        "139": 60,
+        "140": 10,
+        "144": 10,
+        "145": 40,
+        "148": 40,
+        "150": 20,
+        "153": 40,
+        "156": 20,
+        "162": 20,
+        "165": 40,
+        "172": 20,
+        "188": 10
+      },
+      "all_checks_passed": true,
+      "seconds": 4.436
+    }
+  ]
+}

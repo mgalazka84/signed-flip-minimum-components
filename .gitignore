@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+# Keep manuscript and submission files out of this repository.
+*.tex
+*.pdf
+*.docx
+*.eps
+*.aux
+*.out
+*.zip
